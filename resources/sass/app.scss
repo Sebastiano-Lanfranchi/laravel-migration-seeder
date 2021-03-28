@@ -1,0 +1,46 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Fontawesome
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+.img-resize{
+    width: 200px;
+    height: 250px;
+}
+
+.beerFocus{
+    width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+
+    .typeFont{
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .img-resizeFocus{
+        width: 450px;
+        height: 600px;
+    }
+    .colorBox{
+        width: 100px;
+        height: 25px;
+        margin: 0 auto;
+    }
+    p{
+        font-size: larger;
+    }
+}
+
+.formStore{
+    width: 1600px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
